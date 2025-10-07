@@ -2,6 +2,9 @@
 
 基于YOURLS的插件，用于限制允许来自哪些域名的访问
 
+<img width="2165" height="551" alt="image" src="https://github.com/user-attachments/assets/d05d9c51-bb70-4318-be53-122db886efa4" />
+
+
 ## 安装步骤
 
 1. 在 `/user/plugins` 目录下，新建一个名为`referer-restrict`的文件夹。
