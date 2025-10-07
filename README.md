@@ -1,4 +1,4 @@
-# YOURLS 插件：referer-restrict [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
+# YOURLS 插件：referer-restrict  [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
 
 基于YOURLS的插件，用于限制允许来自哪些域名的访问
 
