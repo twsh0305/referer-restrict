@@ -6,7 +6,7 @@
 
 
 ## 安装步骤
-[YOURLS安装教程](https://wxsnote.cn/6633.html)
+YOURLS安装教程：[https://wxsnote.cn/6633.html](https://wxsnote.cn/6633.html)
 
 1. 在 `/user/plugins` 目录下，新建一个名为`referer-restrict`的文件夹。
 2. 将本插件的所有文件放入该文件夹中。
