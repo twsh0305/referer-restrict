@@ -1,4 +1,4 @@
-# YOURLS 插件：referer-restrict  [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
+# YOURLS 插件：Referer访问限制  [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
 
 基于YOURLS的插件，用于限制允许来自哪些域名的访问
 
@@ -9,9 +9,8 @@
 YOURLS安装教程：[https://wxsnote.cn/6633.html](https://wxsnote.cn/6633.html)
 
 1. 在发行版下载插件，解压到 `/user/plugins/` 目录。
-2. 将本插件的所有文件放入该文件夹中。
-3. 访问插件管理页面（`/admin/plugins.php`），激活该插件。
-4. 开始使用！
+2. 访问插件管理页面（`/admin/plugins.php`），激活该插件。
+3. 开始使用！
 
 ## 翻译支持
 1. 插件支持自定义语言翻译，其 `languages` 目录下包含 `referer-restrict-zh_CN.po` 文件，请先下载该文件。
