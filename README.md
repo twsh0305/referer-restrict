@@ -10,9 +10,8 @@ A YOURLS-based plugin to restrict access from specific referrer domains.
 YOURLS Installation Guide: [https://wxsnote.cn/6633.html](https://wxsnote.cn/6633.html)
 
 1. Download the plugin from the releases page and extract it to the `/user/plugins/` directory.
-2. Place all files of this plugin into the extracted folder.
-3. Visit the plugin management page (`/admin/plugins.php`) and activate the plugin.
-4. Start using it!
+2. Visit the plugin management page (`/admin/plugins.php`) and activate the plugin.
+3. Start using it!
 
 ## Translation Support
 1. The plugin supports custom language translation. Its `languages` directory contains the `referer-restrict-zh_CN.po` file - please download this file first.
