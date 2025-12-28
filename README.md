@@ -1,20 +1,29 @@
-# YOURLS 插件：referer-restrict  [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
+# YOURLS Plugin: referer-restrict  [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
 
-基于YOURLS的插件，用于限制允许来自哪些域名的访问
+A YOURLS-based plugin to restrict access from specific referrer domains.
+
+中文
 
 <img width="2165" height="551" alt="image" src="https://github.com/user-attachments/assets/d05d9c51-bb70-4318-be53-122db886efa4" />
 
+## Installation Steps
+YOURLS Installation Guide: [https://wxsnote.cn/6633.html](https://wxsnote.cn/6633.html)
 
-## 安装步骤
-YOURLS安装教程：[https://wxsnote.cn/6633.html](https://wxsnote.cn/6633.html)
+1. Download the plugin from the releases page and extract it to the `/user/plugins/` directory.
+2. Place all files of this plugin into the extracted folder.
+3. Visit the plugin management page (`/admin/plugins.php`) and activate the plugin.
+4. Start using it!
 
-1. 在 `/user/plugins` 目录下，新建一个名为`referer-restrict`的文件夹。
-2. 将本插件的所有文件放入该文件夹中。
-3. 访问插件管理页面（例如：`/admin/plugins.php`），激活该插件。
-4. 开始使用！
+## Translation Support
+1. The plugin supports custom language translation. Its `languages` directory contains the `referer-restrict-zh_CN.po` file - please download this file first.
+2. Replace `zh_CN` in the downloaded filename with your target region's language code (e.g., `en_US`).
+3. Download and use the [Poedit](https://poedit.net/) tool to open the modified `.po` file, then complete the translation for your target language.
+4. After finishing the translation, save the file via Poedit - this will automatically generate a corresponding `.mo` file (same filename as the `.po` file, different extension).
+5. Place both the translated `.po` file (e.g., `referer-restrict-en_US.po`) and the automatically generated `.mo` file into the plugin's `languages` directory (Note: Not YOURLS' own `languages` directory).
+6. After completing the above steps, you can enjoy the plugin's custom language support! Feel free to submit your translation files to the plugin repository to contribute to the multilingual ecosystem.
 
-## 许可证
+## License
 
-随便用，你可以对本插件进行任何操作，不受限制。
+Free for any use - you can perform any operations on this plugin without restrictions.
 
-作者博客: [王先生笔记](https://wxsnote.cn)
+Author's Blog: [Mr. Wang's Notes](https://wxsnote.cn)
