@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: referer-restrict 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-28 12:00+0800\n"
+"PO-Revision-Date: 2025-12-28 21:01+0800\n"
+"Last-Translator: 天无神话(twsh0305)\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
+
+msgid "Referer Access Restriction"
+msgstr "来源访问限制"
+
+msgid "Referer Access Restriction Settings"
+msgstr "来源访问限制设置"
+
+msgid "Please enter allowed main domains (one per line, e.g.: example.com), subdomains are automatically included"
+msgstr "请输入允许访问的主域名（一行一个，示例：example.com），子域名将自动被包含"
+
+msgid "Settings saved"
+msgstr "设置已保存"
+
+msgid "Save Settings"
+msgstr "保存设置"
+
+msgid "Tips:"
+msgstr "温馨提示："
+
+msgid "Leave blank to allow all sources"
+msgstr "留空则允许所有来源访问"
+
+msgid "Allow direct access (no Referer)"
+msgstr "允许直接访问（空Referer）"
+
+msgid "My blog:"
+msgstr "我的博客："
+
+msgid "Mr.Wang's Notes"
+msgstr "王先生笔记"
+
+msgid "Access Denied"
+msgstr "访问被拒绝"
+
+msgid "403 Access Denied"
+msgstr "403 访问被拒绝"
+
+msgid "Your access source is not allowed to access this link"
+msgstr "您的访问来源不被允许打开此短链接"
+
+msgid "<strong>About Translation:</strong> You can refer to the file <code>/referer-restrict/languages/referer-restrict-zh_CN.po</code> in the plugin directory, translate this file into your language, rename it to your regional language code, and place it in the plugin languages directory. For more details, please refer to the tutorial:"
+msgstr "<strong>关于翻译：</strong>你可以参考在插件目录中的<code>/referer-restrict/languages/referer-restrict-zh_CN.po</code>文件，将该文件翻译为你的语言并修改文件名为你的地区语言，并将其放到插件的languages目录中。请参阅教程："
+
+msgid "How to create your own translation file for YOURLS"
+msgstr "如何为YOURLS创建翻译文件"
+
+msgid "<strong>Note:</strong> YOURLS has a built-in caching function. When testing, please use incognito mode, or develop a plugin that adds a timestamp to the URL to avoid cached states"
+msgstr "<strong>注意：</strong>YOURLS自带缓存功能，你在测试时请打开无痕模式，或开发一个为url添加时间戳的插件避免状态被缓存"
