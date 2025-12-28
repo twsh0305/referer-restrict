@@ -2,7 +2,7 @@
 
 A YOURLS-based plugin to restrict access from specific referrer domains.
 
-中文
+[中文文档](https://github.com/twsh0305/referer-restrict/blob/main/README_CN.md)
 
 <img width="2165" height="551" alt="image" src="https://github.com/user-attachments/assets/d05d9c51-bb70-4318-be53-122db886efa4" />
 
