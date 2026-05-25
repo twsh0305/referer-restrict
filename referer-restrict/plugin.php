@@ -3,7 +3,7 @@
 Plugin Name: Referer访问限制，Referer Access Restriction
 Plugin URI: https://github.com/twsh0305/referer-restrict/
 Description: 限制指定Referer来源的请求才能访问短链接，Restrict requests specifying the Referer origin to access short links
-Version: 1.1
+Version: 1.2
 Author: twsh0305(天无神话)
 Author URI: https://wxsnote.cn/
 */
@@ -95,10 +95,14 @@ function referer_restrict_check($args) {
     $location = $args[0];
     $allowed_referers = yourls_get_option('referer_restrict_allowed', '');
     $allow_direct = yourls_get_option('referer_restrict_allow_direct', 0);
-    
-    
+
     // 未设置限制时直接放行
     if (empty($allowed_referers)) {
+        return;
+    }
+
+    // 放行 YOURLS 内部页面的重定向（首页、后台、统计页等），只拦截短链接跳转
+    if (!yourls_is_GO()) {
         return;
     }
 
